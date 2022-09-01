@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.olegMarkov{
+  font-family: "Marck Script"; 
+  font-size: 42px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  color: black;
+  text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.olegMarkov:hover{
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.item{
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.item img{
+  width: 100%;
+  height: auto;
+  padding: 10px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerInfo{
+  font-size: 12px;
+}
+.footerInfo a{
+  color:black;
+}
+.footerInfo a:hover{
+  color: black;
+}
+.icons a img{
+  width: 19px;
+  margin: 2px;
 }
